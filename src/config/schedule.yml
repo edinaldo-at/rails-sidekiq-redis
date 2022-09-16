@@ -1,0 +1,6 @@
+---
+# Add any task you'd like to run a specific times.
+#Create Random Blog:
+#  :cron: 59 11 * * *
+#  :class: Blog::CreateRandomJob
+#  :queue: default
